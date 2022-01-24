@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { page } from './store'
+	import { page } from '../store'
 
   import Tab, { Label } from '@smui/tab';
   import TabBar from '@smui/tab-bar';
-	import { Pages } from './types';
+	import { Pages } from '../types';
 
 	let page_value;
 

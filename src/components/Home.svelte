@@ -1,6 +1,3 @@
-
-
-
 <div class="home">
 	HOME PAGE
 </div>

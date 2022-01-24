@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { page } from "./store";
+	import { page } from "../store";
 
 	import Menu from "./Menu.svelte";
-	import { Pages } from "./types";
+	import { Pages } from "../types";
 	import Home from "./Home.svelte";
 import Emotion from "./Emotion.svelte";
 
