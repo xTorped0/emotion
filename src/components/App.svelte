@@ -4,7 +4,8 @@
 	import Menu from "./Menu.svelte";
 	import { Pages } from "../types";
 	import Home from "./Home.svelte";
-import Emotion from "./Emotion.svelte";
+	import Emotion from "./Emotion.svelte";
+	import Stats from "./Stats.svelte"
 
 	let page_value
 	page.subscribe(value => {
@@ -20,8 +21,8 @@ import Emotion from "./Emotion.svelte";
 			<Home />
 		{:else if page_value === Pages.EMOTION}
 			<Emotion />
-		{:else}
-			<Home />
+		{:else if page_value === Pages.STATS}
+			<Stats />
 		{/if}
 	</div>
 </main>

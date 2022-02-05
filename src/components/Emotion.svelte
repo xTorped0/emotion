@@ -47,7 +47,7 @@
 		<div class="content">
 			<h2> { emotion.name } </h2>
 			<div class="grades">
-				{#each options as option (option)}
+				{#each options as option (`${factor.id}_${option}`)}
 				<div class="grade">
 					<Radio
 						bind:group={selected}
